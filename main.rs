@@ -11,8 +11,9 @@ fn main() {
             let index: Option<usize> = alphabet.find(c);
             let shift:usize = 3;
             let shifted:usize = index.unwrap() + shift;
-            output.push(alphabet.chars().nth(shifted).unwrap());
+           //Push encrypted content to a vector output.push(alphabet.chars().nth(shifted).unwrap());
         }
+//Print encrypted content 
         println!("{:?}", output);
     } 
 }
